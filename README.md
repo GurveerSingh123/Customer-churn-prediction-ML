@@ -1,45 +1,65 @@
-# Customer Churn Prediction - ML Project 
+# Customer Churn Prediction - Machine Learning Project
 
-This is a classification-based project on customer churn prediction trained through machine learning models, it focuses on customers who are likely to churn or leave their services,so that proactive steps can be taken to retain them, it consist of 5 different research questions each explored and answered using our trained model 
+This project focuses on predicting customer churn using supervised machine learning techniques. Churn refers to when customers stop using a company’s product or service. Accurately predicting churn allows businesses to take proactive steps to retain customers.
 
----
+## 📊 Objective
 
-## 📁 Project Structure
+To build and evaluate ML models that can classify whether a customer is likely to churn based on historical data and behavioral features.
 
-- `Customer Churn Model.ipynb` – Main Jupyter notebook containing the ML pipeline.
-- `Churn.csv` – Cleaned dataset used for model training.
-- `README.md` – Project description and instructions.
+## 🛠️ Tools & Libraries Used
 
----
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn (sklearn)
+- Jupyter Notebook
 
-## 🔍 Features Used
+## 🧠 Models Trained
 
-- Credit Score
-- Age
-- Gender
-- Balance
-- Tenure
-- Number of Products
-- Geography
-- Credit Card & Activity Status
-- Estimated Salary
+- Logistic Regression
+- Support Vector Machine (SVM)
+- KNN
+- Decision tree classifier
+- Random Forest Classifier
 
----
+## 📌 Highlights
 
-## 📊 ML Techniques Used
-
+- Preprocessing of customer dataset
+- Feature selection and correlation analysis
 - Exploratory Data Analysis (EDA)
-- Feature Engineering
-- One-Hot Encoding
-- SMOTE for Class Imbalance
-- Model Training (Logistic Regression, Random Forest, etc.)
-- Model Evaluation (Accuracy, Recall, Precision, Confusion Matrix)
-- Early Churn Detection
-- Segment-Based Predictions
+- Model training, tuning, and evaluation
+- ROC-AUC curve plotted for performance insights
+
+## 🔍 Research Questions Solved
+
+**1**. Can we predict whether a customer will churn based on their service usage, tenure, and demographics?  
+**2**. Which features contribute the most to predicting churn?  
+**3**. Can the model detect at-risk customers early (e.g., within the first 3 months)?  
+**4**. Can we segment customers by churn risk probability to prioritize retention campaigns?  
+**5**. Can we predict churn differently for different customer segments, such as geography or senior citizens or acitivity status?
+## 📁 Dataset
+
+Contains features like `CreditScore`, `Age`, `Gender`, `Balance`, `EstimatedSalary`, and more. The target variable is `Churn`.
+
+## 📈 Model Evaluation
+
+- Confusion Matrix
+- ROC-AUC Score
+- Feature Importance Graph
+- Accuracy and F1-score comparison across models
 
 ---
 
-## ✅ Results
+## 📈 Results
 
-Achieved an accuracy of around **88%** using a tuned Random Forest Classifier with SMOTE.
+- **Best Model**: Random Forest Classifier
+- **Accuracy**: ~88%
+- **ROC-AUC Score**: ~0.95
+
+---
+
+### 📌 Author
+
+Made with 💻 by Gurveer Singh  
+🔗 [GitHub](https://github.com/GurveerSingh123) | 💼 [LinkedIn](https://www.linkedin.com/in/gurveer-singh-847b37312)
 
